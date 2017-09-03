@@ -1,0 +1,9 @@
+
+	label, ul { float:left; }
+	.fieldRow { clear:both;  margin:5px 0px; overflow:hidden; }
+	ul.ratingStars { list-style:none; margin:0px 0px; overflow:hidden; }
+	ul.ratingStars li { float:left; width:16px; height:16px; background:url('star.gif') no-repeat left top; cursor:pointer; }
+	ul.ratingStars li.active { background-position: 0px -32px; }
+	ul.ratingStars li.default { background-position: 0px 0px; }
+	ul.ratingStars li.highlighted, 
+	ul.ratingStars li:hover { background-position: 0px -16px; }
